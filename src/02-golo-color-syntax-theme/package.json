@@ -1,0 +1,15 @@
+{
+  "name": "02-golo-color-syntax-theme",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Golo Support",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/02-golo-color-syntax-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

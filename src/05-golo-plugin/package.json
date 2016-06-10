@@ -1,0 +1,22 @@
+{
+  "name": "05-golo-plugin",
+  "main": "./lib/05-golo-plugin",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "05-golo-plugin:toggle"
+  },
+  "repository": "https://github.com/atom/05-golo-plugin",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "monet": "^0.8.10",
+    "mustache": "^2.2.1",
+    "ractive": "^0.7.3"
+  }
+}

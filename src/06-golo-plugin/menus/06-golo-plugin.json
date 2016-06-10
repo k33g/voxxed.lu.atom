@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle 06-golo-plugin",
+        "command": "06-golo-plugin:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "06-golo-plugin",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "06-golo-plugin:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

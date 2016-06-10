@@ -1,0 +1,18 @@
+{
+  "name": "06-golo-plugin",
+  "main": "./lib/06-golo-plugin",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "06-golo-plugin:toggle"
+  },
+  "repository": "https://github.com/atom/06-golo-plugin",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
