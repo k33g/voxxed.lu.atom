@@ -1,0 +1,2 @@
+# Demo Golo
+module demo

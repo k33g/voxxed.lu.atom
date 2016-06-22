@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gololang-generator",
+        "command": "gololang-generator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gololang-generator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gololang-generator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

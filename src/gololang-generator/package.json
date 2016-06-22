@@ -1,0 +1,22 @@
+{
+  "name": "gololang-generator",
+  "main": "./lib/gololang-generator",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "gololang-generator:toggle"
+  },
+  "repository": "https://github.com/atom/gololang-generator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "monet": "^0.8.10",
+    "mustache": "^2.2.1",
+    "ractive": "^0.7.3"
+  }
+}

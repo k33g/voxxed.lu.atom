@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gololang-webcomponents",
+        "command": "gololang-webcomponents:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gololang-webcomponents",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gololang-webcomponents:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

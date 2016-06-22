@@ -1,0 +1,34 @@
+'.source.golo': # scope
+  'hello':
+    'prefix': 'hello'
+    'body':"Hello World!"
+# 7- Main
+  'main':
+    'prefix': 'gen:main'
+    'body':"""
+function main = |args| {
+  ${1:someCode}
+}
+"""
+
+# 8- Structure
+  'structure':
+    'prefix': 'gen:str'
+    'body' : """
+struct ${1:structureName} = {
+  ${2:fieldName}
+}
+"""
+
+# 9- List methods
+  ':each':
+    'prefix': 'll :each'
+    'body' : """
+each(|${1:item}| { ${2:something} })
+"""
+
+  ':filter':
+    'prefix': 'll :filter'
+    'body' : """
+filter(|${1:item}| { return ${2:something} })
+"""

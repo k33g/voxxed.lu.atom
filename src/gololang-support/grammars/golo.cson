@@ -1,0 +1,85 @@
+'fileTypes': [
+  'golo'
+]
+'name': 'Golo'
+'scopeName': 'source.golo'
+'patterns': [
+  # 1- syntaxe de base
+  {
+    'match': '\\b(function|filter|each)\\b'
+    'name': 'storage.type.function.golo'
+  }
+  {
+    'match': '\\b(println)\\b'
+    'name': 'keyword.display.golo'
+  }
+  {
+    'match': '\\b(if|else)\\b'
+    'name': 'keyword.control.conditional.golo'
+  }
+  {
+    'match': '\\b(try|catch|finally)\\b'
+    'name': 'keyword.control.exception.golo'
+  }
+  {
+    'match': '\\b(true|false)\\b'
+    'name': 'constant.language.boolean.golo'
+  }
+  {
+    'match': '\\b(null)\\b'
+    'name': 'constant.language.null.golo'
+  }
+  {
+    'match': '\\b(import)\\b'
+    'name': 'keyword.control.import.golo'
+  }
+  {
+    'match': '\\b(module)\\b'
+    'name': 'support.variable.golo'
+  }
+  {
+    'match': '\\b(super|this|let|var)\\b'
+    'name': 'variable.language.golo'
+  }
+
+  # 2- String
+  { # String
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.golo'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.golo'
+    'name': 'string.quoted.double.golo'
+  }
+
+  # 3- Numeric
+  {
+    'match': '\\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\\.[0-9]+)?))\\b'
+    'name': 'constant.numeric.golo'
+  }
+
+  # 4- Comments
+  { # Comments
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.golo'
+    'end': '\\n'
+    'name': 'comment.line.number-sign.golo'
+  }
+
+
+  # 5- "Special"
+  {
+    'match': '\\b(DynamicObject)\\b'
+    'name': 'special.dynamicobject.golo'
+  }
+  {
+    'match': '\\b(struct)\\b'
+    'name': 'special.structure.golo'
+  }
+
+]
